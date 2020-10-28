@@ -60,7 +60,6 @@ class CustomImageCell: UITableViewCell {
         super.layoutSubviews()
         let imageYPos = self.bounds.height/2 - 50
         cellImage.frame = CGRect(x:kPadding , y: imageYPos , width: 150, height: 100)
-        cellImage.backgroundColor = UIColor.blue
         
         let xPos = cellImage.bounds.width + (2 * kPadding)
         
