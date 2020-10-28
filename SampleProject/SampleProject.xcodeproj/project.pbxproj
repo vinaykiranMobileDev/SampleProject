@@ -18,7 +18,6 @@
 		AE64733F25492BF30041C8E4 /* RestConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733E25492BF30041C8E4 /* RestConnector.swift */; };
 		AE64734825492CE60041C8E4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64734725492CE60041C8E4 /* NetworkManager.swift */; };
 		AE64735125492F770041C8E4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64735025492F770041C8E4 /* UIViewControllerExtension.swift */; };
-		AE64735C254943240041C8E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64735B254943240041C8E4 /* DetailViewController.swift */; };
 		AE647361254963FF0041C8E4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647360254963FF0041C8E4 /* StringExtension.swift */; };
 		AE647367254964650041C8E4 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647366254964650041C8E4 /* CustomImageCell.swift */; };
 		AE64737A25496C8B0041C8E4 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64737925496C8B0041C8E4 /* CellInfo.swift */; };
@@ -83,7 +82,6 @@
 		AE64733E25492BF30041C8E4 /* RestConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestConnector.swift; sourceTree = "<group>"; };
 		AE64734725492CE60041C8E4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AE64735025492F770041C8E4 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		AE64735B254943240041C8E4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AE647360254963FF0041C8E4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		AE647366254964650041C8E4 /* CustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCell.swift; sourceTree = "<group>"; };
 		AE64737925496C8B0041C8E4 /* CellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 				AE647301254927B90041C8E4 /* Main.storyboard */,
 				AE647304254927BC0041C8E4 /* Assets.xcassets */,
 				AE647309254927BC0041C8E4 /* Info.plist */,
-				AE64735B254943240041C8E4 /* DetailViewController.swift */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -370,7 +367,6 @@
 				AE647385254972910041C8E4 /* Utility.swift in Sources */,
 				AE6472FC254927B90041C8E4 /* AppDelegate.swift in Sources */,
 				AE6472FE254927B90041C8E4 /* SceneDelegate.swift in Sources */,
-				AE64735C254943240041C8E4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
