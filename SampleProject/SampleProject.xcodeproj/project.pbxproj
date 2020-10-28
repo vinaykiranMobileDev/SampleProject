@@ -22,6 +22,30 @@
 		AE647361254963FF0041C8E4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647360254963FF0041C8E4 /* StringExtension.swift */; };
 		AE647367254964650041C8E4 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647366254964650041C8E4 /* CustomImageCell.swift */; };
 		AE64737A25496C8B0041C8E4 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64737925496C8B0041C8E4 /* CellInfo.swift */; };
+		AE647385254972910041C8E4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647384254972910041C8E4 /* Utility.swift */; };
+		AE64738B2549734D0041C8E4 /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = AE64738A2549734D0041C8E4 /* MockData.json */; };
+		AE64738C2549734D0041C8E4 /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = AE64738A2549734D0041C8E4 /* MockData.json */; };
+		AE64738D2549734D0041C8E4 /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = AE64738A2549734D0041C8E4 /* MockData.json */; };
+		AE6473942549736E0041C8E4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647384254972910041C8E4 /* Utility.swift */; };
+		AE6473952549736E0041C8E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6472FF254927B90041C8E4 /* ViewController.swift */; };
+		AE6473962549736E0041C8E4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647360254963FF0041C8E4 /* StringExtension.swift */; };
+		AE6473972549736E0041C8E4 /* RestConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733E25492BF30041C8E4 /* RestConnector.swift */; };
+		AE6473982549736E0041C8E4 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64737925496C8B0041C8E4 /* CellInfo.swift */; };
+		AE6473992549736E0041C8E4 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647366254964650041C8E4 /* CustomImageCell.swift */; };
+		AE64739A2549736E0041C8E4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64735025492F770041C8E4 /* UIViewControllerExtension.swift */; };
+		AE64739B2549736E0041C8E4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64734725492CE60041C8E4 /* NetworkManager.swift */; };
+		AE64739C2549736E0041C8E4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733825492B920041C8E4 /* Country.swift */; };
+		AE6473A0254973700041C8E4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647384254972910041C8E4 /* Utility.swift */; };
+		AE6473A1254973700041C8E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6472FF254927B90041C8E4 /* ViewController.swift */; };
+		AE6473A2254973700041C8E4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647360254963FF0041C8E4 /* StringExtension.swift */; };
+		AE6473A3254973700041C8E4 /* RestConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733E25492BF30041C8E4 /* RestConnector.swift */; };
+		AE6473A4254973700041C8E4 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64737925496C8B0041C8E4 /* CellInfo.swift */; };
+		AE6473A5254973700041C8E4 /* CustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647366254964650041C8E4 /* CustomImageCell.swift */; };
+		AE6473A6254973700041C8E4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64735025492F770041C8E4 /* UIViewControllerExtension.swift */; };
+		AE6473A7254973700041C8E4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64734725492CE60041C8E4 /* NetworkManager.swift */; };
+		AE6473A8254973700041C8E4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733825492B920041C8E4 /* Country.swift */; };
+		AE6473AE254978570041C8E4 /* NetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6473AC254978570041C8E4 /* NetworkManagerTest.swift */; };
+		AE6473AF254978570041C8E4 /* NetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6473AC254978570041C8E4 /* NetworkManagerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +87,9 @@
 		AE647360254963FF0041C8E4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		AE647366254964650041C8E4 /* CustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCell.swift; sourceTree = "<group>"; };
 		AE64737925496C8B0041C8E4 /* CellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
+		AE647384254972910041C8E4 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AE64738A2549734D0041C8E4 /* MockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
+		AE6473AC254978570041C8E4 /* NetworkManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +140,7 @@
 		AE6472FA254927B90041C8E4 /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				AE6473892549733C0041C8E4 /* MockData */,
 				AE6473652549644D0041C8E4 /* View */,
 				AE64734F25492F4E0041C8E4 /* Helpers */,
 				AE64734625492CC90041C8E4 /* NetworkManager */,
@@ -132,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				AE647312254927BD0041C8E4 /* SampleProjectTests.swift */,
+				AE6473AC254978570041C8E4 /* NetworkManagerTest.swift */,
 				AE647314254927BD0041C8E4 /* Info.plist */,
 			);
 			path = SampleProjectTests;
@@ -176,6 +205,7 @@
 			children = (
 				AE64735025492F770041C8E4 /* UIViewControllerExtension.swift */,
 				AE647360254963FF0041C8E4 /* StringExtension.swift */,
+				AE647384254972910041C8E4 /* Utility.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -187,6 +217,14 @@
 				AE6472FF254927B90041C8E4 /* ViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AE6473892549733C0041C8E4 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				AE64738A2549734D0041C8E4 /* MockData.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +332,7 @@
 			files = (
 				AE647305254927BC0041C8E4 /* Assets.xcassets in Resources */,
 				AE647303254927B90041C8E4 /* Main.storyboard in Resources */,
+				AE64738B2549734D0041C8E4 /* MockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE64738C2549734D0041C8E4 /* MockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE64738D2549734D0041C8E4 /* MockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +367,7 @@
 				AE64733F25492BF30041C8E4 /* RestConnector.swift in Sources */,
 				AE64735125492F770041C8E4 /* UIViewControllerExtension.swift in Sources */,
 				AE647361254963FF0041C8E4 /* StringExtension.swift in Sources */,
+				AE647385254972910041C8E4 /* Utility.swift in Sources */,
 				AE6472FC254927B90041C8E4 /* AppDelegate.swift in Sources */,
 				AE6472FE254927B90041C8E4 /* SceneDelegate.swift in Sources */,
 				AE64735C254943240041C8E4 /* DetailViewController.swift in Sources */,
@@ -336,6 +378,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE64739B2549736E0041C8E4 /* NetworkManager.swift in Sources */,
+				AE6473962549736E0041C8E4 /* StringExtension.swift in Sources */,
+				AE6473952549736E0041C8E4 /* ViewController.swift in Sources */,
+				AE6473972549736E0041C8E4 /* RestConnector.swift in Sources */,
+				AE6473982549736E0041C8E4 /* CellInfo.swift in Sources */,
+				AE64739A2549736E0041C8E4 /* UIViewControllerExtension.swift in Sources */,
+				AE6473942549736E0041C8E4 /* Utility.swift in Sources */,
+				AE6473992549736E0041C8E4 /* CustomImageCell.swift in Sources */,
+				AE64739C2549736E0041C8E4 /* Country.swift in Sources */,
+				AE6473AE254978570041C8E4 /* NetworkManagerTest.swift in Sources */,
 				AE647313254927BD0041C8E4 /* SampleProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +396,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6473A7254973700041C8E4 /* NetworkManager.swift in Sources */,
+				AE6473A2254973700041C8E4 /* StringExtension.swift in Sources */,
+				AE6473A1254973700041C8E4 /* ViewController.swift in Sources */,
+				AE6473A3254973700041C8E4 /* RestConnector.swift in Sources */,
+				AE6473A4254973700041C8E4 /* CellInfo.swift in Sources */,
+				AE6473A6254973700041C8E4 /* UIViewControllerExtension.swift in Sources */,
+				AE6473A0254973700041C8E4 /* Utility.swift in Sources */,
+				AE6473A5254973700041C8E4 /* CustomImageCell.swift in Sources */,
+				AE6473A8254973700041C8E4 /* Country.swift in Sources */,
+				AE6473AF254978570041C8E4 /* NetworkManagerTest.swift in Sources */,
 				AE64731E254927BD0041C8E4 /* SampleProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,7 +568,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinay.mobileapps.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -525,7 +587,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinay.mobileapps.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

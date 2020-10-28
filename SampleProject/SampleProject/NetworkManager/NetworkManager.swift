@@ -17,8 +17,13 @@ protocol APICallBack {
 class NetworkManager {
     let kBaseURL = "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json"
     var delegate: APICallBack?
-    
+    var isMockTest = false
+    var isPositivetest = true
     func getTableDatat() {
+        
+        if isMockTest {
+            
+        }
         RestConnector().getCall(kBaseURL) {[weak self] (data, error) in
             if error != nil {
                 self?.delegate?.onError(error?.localizedDescription ?? "Error")
@@ -71,4 +76,15 @@ class NetworkManager {
             }
         }
     }
+    
+    
+    func getMockResponseData() {
+        let data = Utility.fetchMockData()
+        if isPositivetest {
+            self.delegate?.onData(data)
+        } else {
+            self.delegate?.onError("Error")
+        }
+    }
+    
 }

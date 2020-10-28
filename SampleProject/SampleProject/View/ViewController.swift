@@ -56,6 +56,13 @@ class ViewController: UIViewController {
         
         myTableView?.tableFooterView = UIView()
         
+        myTableView?.translatesAutoresizingMaskIntoConstraints = false
+        myTableView?.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 0).isActive = true
+        myTableView?.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 0).isActive = true
+        myTableView?.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor, constant: 0).isActive = true
+        myTableView?.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 0).isActive = true
+
+        
     }
     
     func reloadTableData() {
@@ -89,6 +96,7 @@ extension ViewController :UITableViewDelegate, UITableViewDataSource {
         aCell?.cellData = self.dataSource[indexPath.row]
         
         aCell?.configureCelll()
+        aCell?.selectionStyle = .none
         return aCell ?? UITableViewCell()
     }
     

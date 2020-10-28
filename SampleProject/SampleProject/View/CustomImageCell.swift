@@ -89,7 +89,7 @@ class CustomImageCell: UITableViewCell {
             if let aImage = self.cellData?.image {
                 self.cellImage.image = aImage
             } else{
-                self.cellImage.image = nil
+                self.cellImage.image = UIImage(named: "NoPreview")
                 self.getImage()
             }
         }
