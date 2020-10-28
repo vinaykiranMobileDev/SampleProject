@@ -14,6 +14,9 @@
 		AE647305254927BC0041C8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE647304254927BC0041C8E4 /* Assets.xcassets */; };
 		AE647313254927BD0041C8E4 /* SampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE647312254927BD0041C8E4 /* SampleProjectTests.swift */; };
 		AE64731E254927BD0041C8E4 /* SampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64731D254927BD0041C8E4 /* SampleProjectUITests.swift */; };
+		AE64733925492B920041C8E4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733825492B920041C8E4 /* Country.swift */; };
+		AE64733F25492BF30041C8E4 /* RestConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64733E25492BF30041C8E4 /* RestConnector.swift */; };
+		AE64734825492CE60041C8E4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64734725492CE60041C8E4 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AE647319254927BD0041C8E4 /* SampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE64731D254927BD0041C8E4 /* SampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectUITests.swift; sourceTree = "<group>"; };
 		AE64731F254927BD0041C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE64733825492B920041C8E4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AE64733E25492BF30041C8E4 /* RestConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestConnector.swift; sourceTree = "<group>"; };
+		AE64734725492CE60041C8E4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		AE6472FA254927B90041C8E4 /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				AE64734625492CC90041C8E4 /* NetworkManager */,
+				AE64733D25492BB40041C8E4 /* RetstClient */,
+				AE64733725492B7B0041C8E4 /* Models */,
 				AE6472FB254927B90041C8E4 /* AppDelegate.swift */,
 				AE6472FD254927B90041C8E4 /* SceneDelegate.swift */,
 				AE6472FF254927B90041C8E4 /* ViewController.swift */,
@@ -123,6 +132,30 @@
 				AE64731F254927BD0041C8E4 /* Info.plist */,
 			);
 			path = SampleProjectUITests;
+			sourceTree = "<group>";
+		};
+		AE64733725492B7B0041C8E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE64733825492B920041C8E4 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE64733D25492BB40041C8E4 /* RetstClient */ = {
+			isa = PBXGroup;
+			children = (
+				AE64733E25492BF30041C8E4 /* RestConnector.swift */,
+			);
+			path = RetstClient;
+			sourceTree = "<group>";
+		};
+		AE64734625492CC90041C8E4 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				AE64734725492CE60041C8E4 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE64734825492CE60041C8E4 /* NetworkManager.swift in Sources */,
+				AE64733925492B920041C8E4 /* Country.swift in Sources */,
 				AE647300254927B90041C8E4 /* ViewController.swift in Sources */,
+				AE64733F25492BF30041C8E4 /* RestConnector.swift in Sources */,
 				AE6472FC254927B90041C8E4 /* AppDelegate.swift in Sources */,
 				AE6472FE254927B90041C8E4 /* SceneDelegate.swift in Sources */,
 			);
