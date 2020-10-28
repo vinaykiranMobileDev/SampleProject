@@ -112,7 +112,6 @@ extension CustomImageCell :APICallBack {
                 DispatchQueue.main.async {
                     self.cellImage.image = aImage
                     self.cellData?.image = aImage
-                    print("Imaged Loaded")
                 }
             }            
         }
