@@ -47,7 +47,7 @@ class NetworkManager {
     
     
     func downloadImageFrom(_ url: String) {
-        RestConnector().downloadImage(url) {[weak self] (data, error) in
+        RestConnector().downloadImage(url) {[weak self] (data, url ,error) in
             if error != nil {
                 self?.delegate?.onError(error?.localizedDescription ?? "Error")
                 return
@@ -59,7 +59,13 @@ class NetworkManager {
             }
             
             if let aImage = UIImage(data: aResponse) {
-                self?.delegate?.onData(aImage)
+                
+                var aDict = [String: Any]()
+                aDict["image"] = aImage
+                if let aRequestURL = url {
+                    aDict["url"] = aRequestURL
+                }
+                self?.delegate?.onData(aDict)
             } else {
                 self?.delegate?.onError(error?.localizedDescription ?? "Error")
             }

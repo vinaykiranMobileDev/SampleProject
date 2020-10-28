@@ -7,12 +7,10 @@
 
 import Foundation
 
-
 struct Country: Codable {
     var title: String?
     var rows: [Fact]
 }
-
 
 struct Fact: Codable {
     var title: String?

@@ -11,7 +11,6 @@ class RestConnector: NSObject {
     
     var session = URLSession.shared
     
-    
     public func getCall(_ urlString: String,  complitionHandler:@escaping (Data?, Error?) -> Void) {
         
         guard let aURL = URL(string: urlString) else {
@@ -36,31 +35,35 @@ class RestConnector: NSObject {
     }
     
     
-    func downloadImage(_ urlString: String,  complitionHandler:@escaping (Data?, Error?) -> Void) {
+    func downloadImage(_ urlString: String,  complitionHandler:@escaping (Data?,String?,Error?) -> Void) {
         guard let aURL = URL(string: urlString) else {
-            complitionHandler(nil, nil)
+            complitionHandler(nil,nil, nil)
             return
         }
         
         let aRequest = URLRequest(url: aURL)
         let task = session.downloadTask(with: aRequest) { (url, response, error) in
             if error != nil {
-                complitionHandler(nil, error)
+                complitionHandler(nil,nil,error)
                 return
             }
             
             if let aURL = url {
                 do {
                     let aData = try Data(contentsOf: aURL)
-                    complitionHandler(aData, nil)
+                    var aURL = ""
+                    if let aResponse = response as? HTTPURLResponse {
+                        aURL = aResponse.url?.absoluteString ?? ""
+                    }
+                    complitionHandler(aData,aURL,nil)
                 } catch let aError {
-                    complitionHandler(nil, aError)
+                    complitionHandler(nil, nil, aError)
                 }
             } else {
-                complitionHandler(nil, error)
+                complitionHandler(nil,nil, error)
             }
             
         }
         task.resume()
-    }
+    }// (response as! HTTPURLResponse).url
 }
