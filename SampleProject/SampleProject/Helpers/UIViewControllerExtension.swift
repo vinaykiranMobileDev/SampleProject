@@ -15,7 +15,15 @@ extension UIViewController {
      */
 
     var topbarHeight: CGFloat {
-        let statusBarHeight = view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0
+        var statusBarHeight: CGFloat = 0.0
+        
+        if #available(iOS 13, *) {
+            statusBarHeight = view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0
+        } else {
+            statusBarHeight = UIApplication.shared.statusBarFrame.height
+
+        }
+    
         let navBarHeight = self.navigationController?.navigationBar.frame.height ?? 0.0
         return statusBarHeight + navBarHeight
     }
